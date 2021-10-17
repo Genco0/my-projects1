@@ -1,6 +1,6 @@
 # Import Flask modules
 from flask import Flask, render_template, request
-from werkzeug.datastructures import ContentSecurityPolicy
+
 
 
 # Create an object named app
