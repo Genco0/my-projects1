@@ -25,4 +25,4 @@ def forth(id) :
 
 
 if __name__ == '__main__' :
-    app.run(debug=True, port=2000) # flask çatısı bu şekilde localhost:2000 de çalışacak
+    app.run(host='0.0.0.0', port= 80)# flask çatısı bu şekilde localhost:2000 de çalışacak
